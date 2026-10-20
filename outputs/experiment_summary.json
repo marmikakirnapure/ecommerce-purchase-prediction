@@ -1,0 +1,12 @@
+{
+  "selected_model_by_training_cv_f1": "Decision Tree",
+  "selection_metric": "Best mean 3-fold stratified CV F1 on training data",
+  "test_metrics_are_held_out": true,
+  "train_rows": 9764,
+  "test_rows": 2441,
+  "excluded_features": [
+    "Revenue",
+    "PageValues"
+  ],
+  "scikit_learn_version": "1.8.0"
+}

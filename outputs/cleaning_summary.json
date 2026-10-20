@@ -1,0 +1,40 @@
+{
+  "original_rows": 12330,
+  "original_columns": 18,
+  "missing_values_before_cleaning": 0,
+  "duplicate_rows_detected": 125,
+  "duplicate_rows_removed": 125,
+  "rows_after_cleaning": 12205,
+  "missing_values_after_cleaning": 0,
+  "purchase_sessions": 1908,
+  "non_purchase_sessions": 10297,
+  "purchase_percentage": 15.633,
+  "target": "Revenue",
+  "excluded_predictors": [
+    "Revenue",
+    "PageValues"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "numeric_features": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "BounceRates",
+    "ExitRates",
+    "SpecialDay",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType"
+  ],
+  "categorical_features": [
+    "Month",
+    "VisitorType",
+    "Weekend"
+  ],
+  "scikit_learn_version": "1.8.0"
+}

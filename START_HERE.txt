@@ -1,0 +1,23 @@
+E-COMMERCE PURCHASE PREDICTION — QUICK START
+
+1. Extract the ZIP and open the ecommerce_purchase_prediction_project folder in VS Code.
+2. Open Terminal -> New Terminal.
+3. (Recommended) Create a virtual environment:
+   python -m venv .venv
+   .venv\Scripts\activate
+4. Install packages:
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
+5. Start the website using the included trained model:
+   streamlit run app.py
+6. To rerun data cleaning, 3-fold cross-validation, grid search and evaluation:
+   python train.py
+   Then refresh/restart the website.
+
+MARKING SECTIONS:
+1. Data Cleaning & Splitting — 3 marks: train.py
+2. Model Comparison & Performance Analytics — 4 marks: train.py and outputs/
+3. UI Deployment & Cross-Platform Accessibility — 4 marks: app.py; publish and test using GITHUB_AND_DEPLOYMENT_GUIDE.md
+4. Code Quality, GitHub, Report & Submission — 4 marks: README.md, REPORT_GUIDE.md, REPORT_TEMPLATE.md, .gitignore and GITHUB_AND_DEPLOYMENT_GUIDE.md
+
+Important: GitHub publishing, public deployment, desktop/mobile testing, report completion and adding your actual links require your own account/actions. This ZIP prepares the files but does not falsely claim those external steps are already completed.
